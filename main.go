@@ -51,6 +51,10 @@ func writeGetResult(urls []*url.URL, outputDirectoryName string) (error){
         fileName := fmt.Sprintf("%s/%s.txt", outputDirectoryName, url.Host)
         
         err = os.WriteFile(fileName, []byte(content), 0777)
+        if err != nil {
+            fmt.Println(err)
+            continue
+        }
     }
 
     return nil
@@ -65,7 +69,7 @@ func main() {
     inputFileName := *srcPtr
     outputDirectoryName := *dstPtr
 
-    _ = os.Mkdir(outputDirectoryName, 0777)
+    _ = os.MkdirAll(outputDirectoryName, 0777)
     
     urls, err := scanFile(inputFileName)
     if err!= nil {
