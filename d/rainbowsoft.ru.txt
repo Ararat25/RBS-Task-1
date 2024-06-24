@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://rainbowsoft.ru/files/rainbowsoft/favicon_1_0_0_0.png" type="image/png" />
+<meta name="keywords" content="Софтверная компания,Разработка программного обеспечения любого уровня сложности,Автоматизация деятельности и процессов,Автоматизация деятельности ГИБДД,Информационная безопасность,BI and BPM,Оптимизация бизнес процессов,Специализированные программные системы,Гибкие технологические решения и платформы,Системная интеграция,Техническая поддержка и сопровождение,Комплексы для ГИБДД,Фото и видео фиксация,Экзаменационные классы" />
+<link rel="shortlink" href="http://rainbowsoft.ru/" />
+<meta name="description" content="Научно-производственная организация. Основной вид деятельности - научно-технические исследования, разработка программного обеспечения и сложной микроэлектроник. Основные направления работы: Автоматизация процессов управления. Робототехника. Разработка компьютерных систем. Системы обучения и проверки знаний." />
+<link rel="canonical" href="http://rainbowsoft.ru/" />
+    <title>Rainbowsoft</title>
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">    
+    <style>
+@import url("https://rainbowsoft.ru/modules/system/system.base.css?rmmr7b");
+</style>
+<style>
+@import url("https://rainbowsoft.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?rmmr7b");
+</style>
+<style>
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/date/date_api/date.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/date/date_popup/themes/datepicker.1.7.css?rmmr7b");
+@import url("https://rainbowsoft.ru/modules/field/theme/field.css?rmmr7b");
+@import url("https://rainbowsoft.ru/modules/node/node.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/css/main.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/css/mobile.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/css/selectric.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/reviews/css/reviews.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/views/css/views.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/ckeditor/css/ckeditor.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?rmmr7b");
+</style>
+<style>
+@import url("https://rainbowsoft.ru/sites/all/modules/ctools/css/ctools.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/libraries/fancybox/source/jquery.fancybox.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/ctools/css/modal.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/modules/modal_forms/css/modal_forms_popup.css?rmmr7b");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.4/css/bootstrap.css" media="all" />
+<style>
+@import url("https://rainbowsoft.ru/sites/all/themes/bootstrap/css/3.3.4/overrides.min.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/themes/twemeBlue/css/common.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/themes/twemeBlue/css/style.css?rmmr7b");
+@import url("https://rainbowsoft.ru/sites/all/themes/twemeBlue/css/twemeBlueMobile.css?rmmr7b");
+</style>
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/cupertino/jquery-ui.css' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="https://rainbowsoft.ru/misc/jquery.once.js?v=1.2"></script>
+<script src="https://rainbowsoft.ru/misc/drupal.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script src="https://rainbowsoft.ru/misc/ajax.js?v=7.58"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.4/js/bootstrap.js"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/admin_menu/admin_devel/admin_devel.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/js/before.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/js/jquery.selectric.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/js/rbsonlineservice.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/rbsonlineservice/js/rbsostyles.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/reviews/detect.min.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/rainbowsoft.ru/modules/reviews/reviews.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/files/rainbowsoft/languages/ru_iyDZCSCS_16zRFXg756GUCQ44WAUF_iOwufYmExkkG4.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/fancybox/fancybox.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/libraries/fancybox/source/jquery.fancybox.pack.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/libraries/fancybox/lib/jquery.mousewheel-3.0.6.pack.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/bootstrap/js/misc/_progress.js?v=7.58"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/ctools/js/modal.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/modules/modal_forms/js/modal_forms_popup.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/twemeBlue/js/twemeBlue.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/twemeBlue/js/device.min.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/twemeBlue/special/special.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/bootstrap/js/misc/ajax.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/bootstrap/js/modules/ctools/js/modal.js?rmmr7b"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"twemeBlue","theme_token":"M1CysYNJg5eQ3jBTswk2HHw5NXeqJPMgAfp-6PN9L5s","jquery_version":"1.7","js":{"modules\/statistics\/statistics.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"http:\/\/code.jquery.com\/jquery-1.7.1.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.4\/js\/bootstrap.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/js\/before.js":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/js\/jquery.selectric.js":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/js\/rbsonlineservice.js":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/js\/rbsostyles.js":1,"sites\/rainbowsoft.ru\/modules\/reviews\/detect.min.js":1,"sites\/rainbowsoft.ru\/modules\/reviews\/reviews.js":1,"public:\/\/languages\/ru_iyDZCSCS_16zRFXg756GUCQ44WAUF_iOwufYmExkkG4.js":1,"sites\/all\/modules\/fancybox\/fancybox.js":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.pack.js":1,"sites\/all\/libraries\/fancybox\/lib\/jquery.mousewheel-3.0.6.pack.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/ctools\/js\/modal.js":1,"sites\/all\/modules\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/themes\/twemeBlue\/js\/twemeBlue.js":1,"sites\/all\/themes\/twemeBlue\/js\/device.min.js":1,"sites\/all\/themes\/twemeBlue\/special\/special.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/ctools\/js\/modal.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/rainbowsoft.ru\/modules\/date\/date_api\/date.css":1,"sites\/rainbowsoft.ru\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/css\/main.css":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/css\/mobile.css":1,"sites\/rainbowsoft.ru\/modules\/rbsonlineservice\/css\/selectric.css":1,"sites\/rainbowsoft.ru\/modules\/reviews\/css\/reviews.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.css":1,"sites\/all\/modules\/ctools\/css\/modal.css":1,"sites\/all\/modules\/modal_forms\/css\/modal_forms_popup.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.4\/css\/bootstrap.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.4\/overrides.min.css":1,"sites\/all\/themes\/twemeBlue\/css\/common.less":1,"sites\/all\/themes\/twemeBlue\/css\/style.less":1,"sites\/all\/themes\/twemeBlue\/css\/twemeBlueMobile.css":1}},"fancybox":{"helpers":{"title_enabled":0,"overlay":{"fixed":0},"title":null},"selectors":["a.fancybox",".node  a:has(img)"]},"CToolsModal":{"loadingText":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u041e\u043a\u043d\u043e","closeImage":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/rainbowsoft.ru\/sites\/all\/modules\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e\u0022 title=\u0022\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e\u0022 \/\u003E","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/rainbowsoft.ru\/sites\/all\/modules\/ctools\/images\/throbber.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/rainbowsoft.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":550,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/rainbowsoft.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/rainbowsoft.ru\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...\u0022 title=\u0022\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u0022 \/\u003E","closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"urlIsAjaxTrusted":{"\/":true},"statistics":{"data":{"nid":"152"},"url":"\/modules\/statistics\/statistics.php"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js" charset="utf-8"></script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-152 node-type-page">
+            <!-- Yandex.Metrika informer -->
+        <a href="https://metrika.yandex.ru/stat/?id=18965899&amp;from=informer"
+        target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/18965899/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+        style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="18965899" data-lang="ru" /></a>
+        <!-- /Yandex.Metrika informer -->
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(18965899, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/18965899" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    <div class="block-wrapper">
+    
+  <div class="special-class" id="special-id">
+    <div class="container">
+        <div><span class="title">Звук</span>
+        <input type="button" id="zvuk" value=" ? " onclick="myInfo()">
+        </div>
+
+        <div><span class="title">Шрифт</span>
+        <input type="button" id="minus" value=" а- " onclick="fontSize(this)">
+        <input type="button" id="plus" value=" А+ " onclick="fontSize(this)">
+        </div>
+
+        <div><span class="title">Интервал</span>
+        <input type="button" id="intervalMinus" value=" И - " onclick="intervalSize(this)">
+        <input type="button" id="intervalPlus" value=" И + " onclick="intervalSize(this)">
+        </div>
+
+        <div><span class="title">Цветовая схема</span>
+        <input type="button" id="blackONwhite" value=" Ч/Б " onclick="setColorShem(this)" style="color:#000!important; background: #FFF!important; ">
+        <input type="button" id="whiteONblack" value=" Б/Ч " onclick="setColorShem(this)" style="color:#FFF!important; background: #000!important; ">
+        <input type="button" id="yellowONblue" value=" Ж/С " onclick="setColorShem(this)" style="color:#FFFF00!important; background: #0000FF!important; ">
+        </div>
+
+        <div><span class="title">Изображения</span>
+        <input type="button" id="imgOff" value=" Выкл " onclick="imgNone()">
+        <input type="button" id="imgBlack" value=" Ч/Б " onclick="blackImg()">
+        </div>
+    </div>
+</div>
+
+<div class="special-body-class" id="special-body-class">
+    <div class="block-content">
+            <div class="row navbar navbar-static-top navbar-default" id="navigation">
+                <div class="container">
+                      <div class="region region-body-top">
+    <section id="block-system-main-menu" class="block block-system first-part-menu block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded dropdown"><span title="Информация о компании" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Компания <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://vk.com/npo_rbs" target="_blank">Новости компании в VK</a></li>
+<li class="leaf"><a href="/technology_stack">Применяемый стек технологий</a></li>
+<li class="leaf"><a href="/razrabotka_po_apk">Разработка программного обеспечения</a></li>
+<li class="leaf"><a href="/educational_activities">Образовательная деятельность</a></li>
+<li class="collapsed"><a href="/licenses" title="Лицензии, сертификаты, свидетельства">Лицензии, свидетельства, сертификаты</a></li>
+<li class="leaf"><a href="/online">онлайн-тестирование</a></li>
+<li class="last leaf"><a href="/contacts">Контакты</a></li>
+</ul></li>
+<li class="last expanded dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Направления деятельности <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://repka-pi.ru/" target="_blank">Одноплатный компьютер Repka Pi</a></li>
+<li class="leaf"><a href="https://robointellect.ru/" target="_blank">Образовательная робототехника</a></li>
+<li class="leaf"><a href="http://fvf-rbs.ru/" target="_blank">Интеллектуальная транспортная система</a></li>
+<li class="leaf"><a href="http://spectr-pdd.ru/" title="Аппаратно-программный комплекс автоматизированного проведения теоретического экзамена на получение права на управление транспортными средствами &quot;Спектр ПДД&quot;" target="_blank">Автоматизация обучения ПДД и БДД</a></li>
+<li class="leaf"><a href="/platforma-dlia-zhkh">Платформа для ЖКХ</a></li>
+<li class="last leaf"><a href="http://rbs-computers.ru/" title="Отечественная микропроцессорная разработка" target="_blank">Разработка микроэлектроники</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="block-block-19" class="block block-block logotip clearfix">
+
+      
+  <p><a class="navbar-brand" href="/" title="На главную"><img alt="На главную" src="/files/rainbowsoft/logo2019.png" /> </a></p>
+
+<script>
+// события на открытие блоков со ссылками в меню на мобилках
+document.addEventListener('click',(e)=>{
+    const first=e.target.parentElement.classList.contains('first')
+    const last=e.target.parentElement.classList.contains('last')
+    const firstEl= document.getElementsByClassName('first expanded dropdown')[1]
+    const lastEl= document.getElementsByClassName('last expanded dropdown')[1]
+    if (first){
+   if(firstEl.classList.contains('open')){
+      firstEl.classList.remove('open')
+      lastEl.classList.remove('open')
+   } else{firstEl.classList.add('open')
+          lastEl.classList.remove('open')}
+    }else if(last){
+         if(lastEl.classList.contains('open')){
+      lastEl.classList.remove('open') 
+      firstEl.classList.remove('open')
+   }else{lastEl.classList.add('open')
+         firstEl.classList.remove('open')}
+    }else{
+       firstEl.classList.remove('open')
+        lastEl.classList.remove('open') 
+    }
+})
+
+
+</script>
+</section>
+<section id="block-menu-menu-menu-secondpart" class="block block-menu second-part-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="http://online.robointellect.ru/#/" style="word-break: break-word; width: 140px; text-transform:none;" target="_blank">Онлайн-сервис РобоИнтеллект</a></li>
+<li class="leaf"><a href="https://robointellect.ru/" style=" word-break: break-word; width: 140px; text-transform:none;" target="_blank">РОБОТЫ РобоИнтеллект</a></li>
+<li class="last leaf"><a href="https://repka-pi.ru/" title="Контактная информация" style="text-transform:none;" target="_blank">Repka-Pi</a></li>
+</ul>
+</section>
+  </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse">
+                        <nav role="navigation">
+                            <ul class="menu nav"><li class="first expanded dropdown"><span title="Информация о компании" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Компания <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://vk.com/npo_rbs" target="_blank">Новости компании в VK</a></li>
+<li class="leaf"><a href="/technology_stack">Применяемый стек технологий</a></li>
+<li class="leaf"><a href="/razrabotka_po_apk">Разработка программного обеспечения</a></li>
+<li class="leaf"><a href="/educational_activities">Образовательная деятельность</a></li>
+<li class="collapsed"><a href="/licenses" title="Лицензии, сертификаты, свидетельства">Лицензии, свидетельства, сертификаты</a></li>
+<li class="leaf"><a href="/online">онлайн-тестирование</a></li>
+<li class="last leaf"><a href="/contacts">Контакты</a></li>
+</ul></li>
+<li class="last expanded dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Направления деятельности <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://repka-pi.ru/" target="_blank">Одноплатный компьютер Repka Pi</a></li>
+<li class="leaf"><a href="https://robointellect.ru/" target="_blank">Образовательная робототехника</a></li>
+<li class="leaf"><a href="http://fvf-rbs.ru/" target="_blank">Интеллектуальная транспортная система</a></li>
+<li class="leaf"><a href="http://spectr-pdd.ru/" title="Аппаратно-программный комплекс автоматизированного проведения теоретического экзамена на получение права на управление транспортными средствами &quot;Спектр ПДД&quot;" target="_blank">Автоматизация обучения ПДД и БДД</a></li>
+<li class="leaf"><a href="/platforma-dlia-zhkh">Платформа для ЖКХ</a></li>
+<li class="last leaf"><a href="http://rbs-computers.ru/" title="Отечественная микропроцессорная разработка" target="_blank">Разработка микроэлектроники</a></li>
+</ul></li>
+</ul><ul class="menu nav"><li class="first leaf"><a href="http://online.robointellect.ru/#/" style="word-break: break-word; width: 140px; text-transform:none;" target="_blank">Онлайн-сервис РобоИнтеллект</a></li>
+<li class="leaf"><a href="https://robointellect.ru/" style=" word-break: break-word; width: 140px; text-transform:none;" target="_blank">РОБОТЫ РобоИнтеллект</a></li>
+<li class="last leaf"><a href="https://repka-pi.ru/" title="Контактная информация" style="text-transform:none;" target="_blank">Repka-Pi</a></li>
+</ul>                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <section class="row sub-header">
+                 <div class="region region-sub-header">
+    <section id="block-block-22" class="block block-block slabovid clearfix">
+
+      
+  <p><a href="#" id="spec"><img alt="" src="/files/rainbowsoft/icon-slabovid.png" style="width: 24px; height: 19px; float: left;" /> Версия для слабовидящих</a></p>
+</section>
+<section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="form-search content-search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Форма поиска</h2>
+    <div class="input-group"><input title="Введите ключевые слова для поиска." placeholder="Поиск" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Поиск">Поиск</button>
+</div><input type="hidden" name="form_build_id" value="form-n362eSn68u6c6kMVfhkob21G4oMjqVvqUO0ezG06Eqg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+  </div>
+            </section>
+
+            <header class="header row" >
+                <div class="header-top">
+                                                                                        </div>
+                                            </header>
+
+
+            <section class="main row">
+                                                               <section class="main-col col-md-12">
+                                                                                                    
+                      <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <article id="node-152" class="node node-page  clearfix">
+         <footer>
+          <ul class="links list-inline list-unstyled"><li class="statistics_counter first last"><span>32653 просмотра</span></li>
+</ul>  </footer>
+      </article>
+
+</section>
+  </div>
+                </section>
+
+            </section>
+                    </div>
+    </div>
+
+    <div class="need-more-space">  <div class="region region-full-size-top">
+    <section id="block-block-20" class="block block-block clearfix">
+
+      
+  <div class="main_page_content"><div class="main_page_content_text_nest"><h1 class="main_page_content_header">НПО Рэйнбовсофт Rainbowsoft — современная IT-компания</h1><div class="main_page_content_description">Компания является резидентом инновационного центра «Сколково» и зарегистрирована под номером <a href="https://navigator.sk.ru/orn/1123989" target="_blank">1123989</a></div><div class="sk_res"><a href="https://navigator.sk.ru/orn/1123989" target="_blank"><img alt="Резидент Сколково" src="/files/rainbowsoft/sk.jpg" /></a></div><div class="main_page_content_legend">Количество действующих клиентов 1350<br />Госконтрактов - 102<br />Завершенных проектов - 100%<br />50% бюджета - госконтракты<br />50% бюджета - контракты с коммерческими организациями</div></div><div class="main_page_content_image_nest"><img alt="График прользователей" src="/files/rainbowsoft/diagram.png" /></div></div>
+</section>
+  </div>
+</div>
+
+    <div class="block-footer">
+        <footer class="footer row " >
+            <div class="container">
+                <div class="footer-contacts">
+                    <div class="col-md-5 col-sm-12">
+                          <div class="region region-footer">
+    <section id="block-block-16" class="block block-block clearfix">
+
+      
+                 Телефон: +7 (8452) 33-88-51 <br>
+               Адрес: 410033, Россия, г. Саратов, ул. Панфилова, д.1, этаж 4<br>
+               E-mail: general@rainbowsoft.ru
+</section>
+  </div>
+                    </div>
+                    <div class="col-md-2 hidden-sm hidden-xs logoblock">
+                        <img class="logo" src="/files/rainbowsoft/logo2019.png" style="float:left;"/>
+                    </div>
+                    <div class="col-md-5 col-sm-12 soc">
+                        <div class="white org-edu-info"><a href="educational_activities">Сведения об образовательной организации</a></div>
+                        <p class="white hidden-xs hidden-sm">Мы в социальных сетях</p>
+                        <div class="soclinks">
+                            <a href="https://www.youtube.com/channel/UCbRyLV22hpwUNhfTyOTMvFQ" target="_blank"></a>
+                            <a href="https://vk.com/npo_rbs" target="_blank"></a>
+                        </div>
+                        <p class="copy hidden-xs hidden-sm">&copy; ООО НПО "РэйнбовСофт", 2024. Все права защищены </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+
+
+
+  <script src="https://rainbowsoft.ru/modules/statistics/statistics.js?rmmr7b"></script>
+<script src="https://rainbowsoft.ru/sites/all/themes/bootstrap/js/bootstrap.js?rmmr7b"></script>
+</div>
+
+
+
+  </body>
+</html>
