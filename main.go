@@ -38,12 +38,12 @@ func writeGetResult(urls []*url.URL, outputDirectoryName string) (error){
     for _, url := range urls {
         response, err := http.Get(url.String())
         if err != nil {
-            return err
+            continue
         }
 
         body, err := io.ReadAll(response.Body)
         if err != nil {
-            return err
+            continue
         }
 
         content := string(body)
