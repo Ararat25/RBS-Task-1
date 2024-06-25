@@ -9,6 +9,7 @@ import (
 	"os"
 	"strings"
 	"time"
+	"sync"
 )
 
 // scanFile считывает строки из файла и записывает в слайс
@@ -56,26 +57,43 @@ func getRequest(url *url.URL) (string, error) {
 	return content, nil
 }
 
+var (
+	mu sync.Mutex
+	wg sync.WaitGroup
+)
+
+// writeResponseInFile записывает ответ от запроса в файл
+func writeResponseInFile(url *url.URL, arrFileName *[]string, outputDirectoryName string) {
+	defer wg.Done()
+
+	content, err := getRequest(url)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fileName := fmt.Sprintf("%s/%s.txt", outputDirectoryName, url.Host)
+	err = os.WriteFile(fileName, []byte(content), 0777)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	mu.Lock()
+	*arrFileName = append(*arrFileName, fileName)
+	mu.Unlock()
+}
+
 // upload получает данные из URL запросов и записывает в файлы
 func upload(urls []*url.URL, outputDirectoryName string) []string {
 	arrFileName := []string{}
 
 	for _, url := range urls {
-		content, err := getRequest(url)
-		if err != nil {
-			fmt.Println(err)
-			continue
-		}
-
-		fileName := fmt.Sprintf("%s/%s.txt", outputDirectoryName, url.Host)
-		err = os.WriteFile(fileName, []byte(content), 0777)
-		if err != nil {
-			fmt.Println(err)
-			return nil
-		}
-
-		arrFileName = append(arrFileName, fileName)
+		wg.Add(1)
+		go writeResponseInFile(url, &arrFileName, outputDirectoryName)
 	}
+
+	wg.Wait()
 
 	return arrFileName
 }
