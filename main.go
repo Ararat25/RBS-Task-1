@@ -38,42 +38,49 @@ func parseUrl(urls []string) []*url.URL {
 	return urlArr
 }
 
+// getRequest выполняет get запрос по URL и возвращает ответ в виде string
+func getRequest(url *url.URL) (string, error) {
+	response, err := http.Get(url.String())
+	if err != nil {
+		return "", err
+	}
+	defer response.Body.Close()
+
+	body, err := io.ReadAll(response.Body)
+	if err != nil {
+		return "", err
+	}
+
+	content := string(body)
+
+	return content, nil
+}
+
 // upload получает данные из URL запросов и записывает в файлы
 func upload(urls []*url.URL, outputDirectoryName string) []string {
 	arrFileName := []string{}
 
 	for _, url := range urls {
-		response, err := http.Get(url.String())
+		content, err := getRequest(url)
 		if err != nil {
 			fmt.Println(err)
 			continue
 		}
 
-		func() {
-			defer response.Body.Close()
+		fileName := fmt.Sprintf("%s/%s.txt", outputDirectoryName, url.Host)
+		err = os.WriteFile(fileName, []byte(content), 0777)
+		if err != nil {
+			fmt.Println(err)
+			return nil
+		}
 
-			body, err := io.ReadAll(response.Body)
-			if err != nil {
-				fmt.Println(err)
-				return
-			}
-
-			content := string(body)
-
-			fileName := fmt.Sprintf("%s/%s.txt", outputDirectoryName, url.Host)
-
-			err = os.WriteFile(fileName, []byte(content), 0777)
-			if err != nil {
-				fmt.Println(err)
-				return
-			}
-			arrFileName = append(arrFileName, fileName)
-		}()
+		arrFileName = append(arrFileName, fileName)
 	}
 
 	return arrFileName
 }
 
+// printFileName выводит на экран названия файлов из слайса
 func printFileName(fNames []string) {
 	fmt.Println("\nПути к созданным файлам:")
 	for _, fname := range fNames {
